@@ -43,15 +43,30 @@ At the end of the year, the overall winner wins the majority of the prize pool.
 public
 └── index.html              #Html markup for rendering js scripts
 src
+├── Actions
+│   ├── AuthActions.js      #Action file for user authentication
+│   ├── GamesActions.js     #Action file for fetching games from firebase db
+│   ├── PicksActions.js     #Action file for fetching / changing picks
+│   └── ResultsACtion.js    #Action file for fetching weekly results from firebase
 ├── Components
-│   ├── GameCard.js         #Table for individual games on pick page
+│   ├── GameCard.js         #Card for an individual game on pick page
+│   ├── GamesContainer.js   #Container for individual games on pick page
 │   ├── LoginForm.js        #Login inputs
-│   ├── PicksPage.js        #Main page for picks on the app
 │   ├── PickTracker.js      #Component to track (un)used picks in the app
 │   ├── ProfilePage.js      #Page to allow user to change profile
 │   ├── ResultsPage.js      #Page to show results
 │   ├── ResultsTable.css
+│   ├── TeamRow.js          #Presentational component for GameCard Rows
 │   └── WeeksDropDown.js    #Week selection drop-down component
+├── Reducers
+│   ├── AuthReducer.js      #Handles user authentication state
+│   ├── GamesReducer.js     #Handles weekly game state
+│   ├── index.js            #Combines reducers for App
+│   ├── NumsUsedReducer.js  #Reduces pick values to numsUsed state
+│   ├── PicksReducer.js     #Handles weekly pick updating and fetching
+│   ├── ResultsReducer.js   #Handles weekly results in state
+│   ├── UsersReducer.css    #Fetches nicknames for all users for the state
+│   └── WeekReducer.js      #Reducer for week drop-down component
 └── Scripts
     └── scraper.js          #scraper to pull games and results to db
 ├── App.css
