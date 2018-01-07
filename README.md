@@ -13,9 +13,10 @@ A demo for anyone to use can be found [here](https://nfl-confidence-app.firebase
 
 # Tools Used
 
-The bulk of the app is built in React, with a single script built to run using
-node. The database and authentication are all done using firebase. A few
-packages from npm were used: ReactDropDown, moment and react-tabs.
+The bulk of the app is built in React, with state management handled by
+Redux, and a single scraping script using node. The database and authentication
+are all done using firebase. A few packages from npm were used: ReactDropDown,
+moment and react-tabs.
 
 # Rules to the Game
 
