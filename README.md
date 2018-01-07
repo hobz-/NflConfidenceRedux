@@ -1,4 +1,5 @@
-# THIS IS THE REDUX VERSION OF THE LIVE APP. VISIT [HERE](https://github.com/hobz-/NflConfidencePool) FOR THE BASE REACT APP.
+# THIS IS THE REDUX VERSION OF THE LIVE APP. 
+# VISIT [HERE](https://github.com/hobz-/NflConfidencePool) FOR THE BASE REACT APP.
 
 # Overview
 
